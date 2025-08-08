@@ -4,7 +4,7 @@ This project aims to detect Parkinson's Disease (PwPD) using voice recordings, p
 
 ---
 
-## 🚀 Project Workflow
+##  Project Workflow
 
 1. **Data Loading & Validation**
 2. **Audio Preprocessing** (resampling, pre-emphasis, silence removal)
@@ -14,11 +14,11 @@ This project aims to detect Parkinson's Disease (PwPD) using voice recordings, p
 
 ---
 
-## 📊 Statistical Analysis & Mathematical Methods
+##  Statistical Analysis & Mathematical Methods
 
 This project involves several statistical and mathematical techniques for feature validation, hypothesis testing, and correlation analysis before model training:
 
-### 🧪 1. Hypothesis Testing
+###  1. Hypothesis Testing
 
 Used to evaluate whether feature distributions differ significantly between the two groups (HC vs. PwPD):
 
@@ -29,11 +29,11 @@ Used to evaluate whether feature distributions differ significantly between the 
   - *Mann-Whitney U* is used for non-parametric comparison when assumptions are violated.
   - These tests determine whether the **mean or median** of a feature is significantly different between HC and PwPD.
 
-### 📉 2. Bonferroni Correction
+###  2. Bonferroni Correction
 
 Since multiple tests are conducted, Bonferroni correction is applied to adjust p-values and control the **family-wise error rate**, reducing the chance of false positives.
 
-### 🔗 3. Correlation Analysis
+###  3. Correlation Analysis
 
 Used to find relationships between features and the target label (0 = HC, 1 = PwPD):
 
@@ -42,7 +42,7 @@ Used to find relationships between features and the target label (0 = HC, 1 = Pw
   - Reveals multicollinearity between features.
   - Helps identify redundant or highly correlated features.
 
-### 🔢 4. Feature Engineering Metrics
+###  4. Feature Engineering Metrics
 
 Many features rely on mathematical calculations of variation and distribution:
 
@@ -53,9 +53,7 @@ Many features rely on mathematical calculations of variation and distribution:
   - Both indicate voice instability.
 - **Pitch Slope**: Trend of pitch change over time, often calculated using linear regression.
 
-### 📈 Visualizations
-
-To support statistical understanding:
+###  Visualizations
 
 - **Histograms & KDE Plots**: For distribution analysis.
 - **Boxplots**: To compare spread and detect outliers.
