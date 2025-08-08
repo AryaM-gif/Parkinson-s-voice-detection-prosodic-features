@@ -22,4 +22,21 @@ This project aims to detect Parkinson's Disease (PwPD) using voice recordings, p
 7. **Prediction on New Audio**
 
 ## 📂 Folder Structure
+├── notebooks/ # Colab / Jupyter notebooks
+├── src/ # Python scripts
+├── models/ # Saved models
+├── data/ # (Optional) voice data (not uploaded)
+├── README.md
+├── requirements.txt
+
+markdown
+Copy
+Edit
+
+## 🛠️ Technologies Used
+
+- Python, NumPy, Pandas, SciPy
+- Librosa, Parselmouth
+- scikit-learn, TensorFlow, PyTorch
+- Matplotlib, Seaborn
 
