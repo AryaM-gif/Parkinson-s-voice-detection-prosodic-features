@@ -1,9 +1,3 @@
-# Parkinson's-voice-detection-prosodic-features
-
-ML-based detection of Parkinson's Disease using prosodic features from voice recordings (pitch, energy, jitter, shimmer, etc.)
-
----
-
 # Parkinson's Voice Detection using Prosodic Features
 
 This project aims to detect Parkinson's Disease (PwPD) using voice recordings, primarily focusing on prosodic features like pitch, energy, jitter, shimmer, etc.
