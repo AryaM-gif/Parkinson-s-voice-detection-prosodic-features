@@ -21,17 +21,6 @@ This project aims to detect Parkinson's Disease (PwPD) using voice recordings, p
    - Accuracy, F1-score, Confusion matrix, ROC-AUC
 7. **Prediction on New Audio**
 
-## 📂 Folder Structure
-├── notebooks/ # Colab / Jupyter notebooks
-├── src/ # Python scripts
-├── models/ # Saved models
-├── data/ # (Optional) voice data (not uploaded)
-├── README.md
-├── requirements.txt
-
-markdown
-Copy
-Edit
 
 ## 🛠️ Technologies Used
 
